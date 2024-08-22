@@ -7,7 +7,7 @@ const NavBar = () => {
         <div>
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">NewsMonkey</Link>
+                    <Link className="navbar-brand" to="/">News App</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -23,7 +23,8 @@ const NavBar = () => {
                             <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
-                            <li className="nav-item"><strong>© Sarthak Chauhan</strong></li>
+                            <li className="nav-item"><Link className="nav-link" to="/">&copy;Sarthak Chauhan</Link></li>
+
                         </ul>
                     </div>
                 </div>
