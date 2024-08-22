@@ -1,5 +1,5 @@
 {
-  "homepage": "https://darkshadow-ssh.github.io/My-News-App-React/",
+  "homepage": "https://darkshadow-ssh.github.io/My-News-App-React",
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
@@ -12,8 +12,8 @@
     "react-dom": "^17.0.2",
     "react-infinite-scroll-component": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-top-loading-bar": "^2.3.1",
+    "react-scripts": "^5.0.1",
+    "react-top-loading-bar": "^2.0.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
