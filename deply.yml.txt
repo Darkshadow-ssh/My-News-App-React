@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mynodedb
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nodedb
+  template:
+    metadata:
+      labels:
+        app: nodedb
+    spec:
+      containers:
+      - name: nodedb
+        image: philippaul/node-mongo-db:01
+      - name: mongodb
+        image: mongo:latest
